@@ -9,8 +9,8 @@
 - Mainboard: Gigabyte Z370 D3H
 - RAM: G.SKILL Trident Z RGB 16GB 3000MHz DDR4 (8GBx4) 
 - SSD:
+    - Samsung SSD 970 EVO 500GB
     - Samsung SSD 970 EVO Plus 500GB
-    - Samsung SSD 970 EVO Plus Plus 500GB
     - Seagate Barracuda 2TB 3.5" SATA (ST2000DM008)
 - Wireless: Broadcom BCM943602CS  802.11ac + Bluetooth 4.1
 - VGA:
