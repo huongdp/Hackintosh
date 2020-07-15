@@ -45,6 +45,7 @@ Big Sur (Geekbench 5) |throttling|throttling|[5409](1211633)|[44622](1211665)
 Big Sur (Geekbench 4) |[6250](15630067)|[30135](15630067)|[24261](4863112)|[140718](4863107)
 Catalina (Geekbench 5)|[1198](2932351)|[6233](2932351)|[5450](1211793)|[43108](1211263)
 Catalina (Geekbench 4)|[6231](15629857)|[30069](15629857)|[24481](4863075)|[141787](4863077)
+
   \**Geekbench Browser* [here](https://browser.geekbench.com/v4/cpu/15630067)
 
 ## **Overclocking (5GHz)**
