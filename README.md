@@ -1,6 +1,6 @@
 
 
-# Hackintosh - macOS Big Sur
+# Hackintosh - macOS Big Sur - Beta 2 (20A4300b) - Z370 + 8700K + RX 580
 ![SystemInfo](https://raw.githubusercontent.com/huongdp/Hackintosh/master/Screenshot/BigSur/Overview.png)
 
 # Hardware
@@ -37,10 +37,25 @@
  - Sounds
  - Others (updating...)
 # Benchmarks
-- **Normal (4.7GHz)**
+## **Normal (4.7GHz)**
 
-  Updating...
+OS                    | CPU (Single-Core) | CPU (Multi-Cores) | OpenCL (KBL Graphics) | OpenCL (RX 580)
+----------------------|:-----------------:|:-----------------:|:------------------:|:-------:
+Big Sur (Geekbench 5) |throttling|throttling|[5409](1211633)|[44622](1211665)
+Big Sur (Geekbench 4) |[6250](15630067)|[30135](15630067)|[24261](4863112)|[140718](4863107)
+Catalina (Geekbench 5)|[1198](2932351)|[6233](2932351)|[5450](1211793)|[43108](1211263)
+Catalina (Geekbench 4)|[6231](15629857)|[30069](15629857)|[24481](4863075)|[141787](4863077)
+  \**Geekbench Browser* [here](https://browser.geekbench.com/v4/cpu/15630067)
 
-- **Overclocking (5GHz)**
+## **Overclocking (5GHz)**
 
-  Updating...
+  Waiting... for upgrading radiator system :)
+
+# Credits
+- Bootloaders + Kexts:
+  - [OpenCore](https://github.com/acidanthera/OpenCorePkg)
+  - [Acidanthera](https://github.com/acidanthera/OpenCorePkg)
+- Forums
+  - [dortania](https://dortania.github.io/OpenCore-Desktop-Guide)
+  - [tonymacx86](https://www.tonymacx86.com)
+  - [r/hackintosh](https://www.reddit.com/r/hackintosh)
