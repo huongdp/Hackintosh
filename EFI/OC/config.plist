@@ -680,34 +680,6 @@
 		</dict>
 		<key>Entries</key>
 		<array>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Name</key>
-				<string>Windows 10</string>
-				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1B,0x4)/Pci(0x0,0x0)/NVMe(0x1,54-36-B2-91-5A-38-25-00)/HD(1,GPT,CF5A0B00-2B02-01D6-8001-AD678115EB00,0x800,0x63800)/\EFI\Microsoft\Boot\bootmgfw.orig.efi</string>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<false/>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Name</key>
-				<string>Rescue</string>
-				<key>Path</key>
-				<string>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,51-BF-B2-81-5B-38-25-00)/HD(3,GPT,1FEDBC70-6E4B-01D5-389A-948525B7EA00,0x1A786000,0x800000)/\EFI\BOOT\BOOTX64.EFI</string>
-			</dict>
 		</array>
 		<key>Security</key>
 		<dict>
