@@ -717,8 +717,6 @@
 			<true/>
 			<key>AuthRestart</key>
 			<false/>
-			<key>BlacklistAppleUpdate</key>
-			<true/>
 			<key>BootProtect</key>
 			<string>None</string>
 			<key>ExposeSensitiveData</key>
@@ -744,7 +742,7 @@
 				<key>Name</key>
 				<string>UEFI Shell</string>
 				<key>Path</key>
-				<string>OpenShell.efi</string>
+				<string>Shell.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>
