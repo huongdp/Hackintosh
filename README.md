@@ -3,6 +3,10 @@
 # Hackintosh - macOS Big Sur - Beta 2 (20A4300b) - Z370 + 8700K + RX 580
 ![SystemInfo](https://raw.githubusercontent.com/huongdp/Hackintosh/master/Screenshot/BigSur/Overview.png)
 
+# ⚠️ Disclaimer
+OpenCore bootloader is currently unable to start the installation (USB installer, .etc).
+The solution is to use a virtual machine and use a physical disk (additional, USB or SATA, NVME) as a target in the installation.
+
 # Hardware
 
 - CPU: Intel(R) CPU Core i7 8700K
@@ -24,9 +28,10 @@
 - Keyboard: Keychron K2 Wireless Mechanical Keyboard
   
 # Installation
- Updating...
+  [INSTALLATION](INSTALLATION.md)
+
 # BIOS
- Updating...
+ BIOS version: [F10](https://www.gigabyte.com/Motherboard/Z370M-D3H-rev-10/support#support-dl-bios)
 
 # What works
  - Intel HD Graphics 630 (Support Intel Quick Sync Video)
