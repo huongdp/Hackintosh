@@ -23,6 +23,27 @@
 - Mouse: Logitech MX Master 2S (Bluetooth or Unifying receiver)
 - Keyboard: Keychron K2 Wireless Mechanical Keyboard
 
+# Installation
+
+This step extracts the Installer contents, then installs Clover bootloader to the USB stick.
+
+  1. Insert the USB drive
+  2. Open **/Applications/Utilities/Disk Utility**
+  3. Highlight the USB drive in left column
+  4. Click on the **Partition** tab
+  5. Click **Current** and choose **1 Partition**
+  6. Click **Options...**
+  7. Choose **GUID Partition Table**
+  8. Under **Name:** type **USB** (You can rename it later)
+  9. Under **Format:** choose **Mac OS Extended (Journaled)**
+  10. Click **Apply** then ***Partition***
+  11. Open **/Applications/Utilities/Terminal**
+  12. Type the following, enter password and hit enter. This command completely erases the USB, then creates native installer media from the Install macOS Application.
+
+```sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/USB /Applications/Install\ macOS\ Big\ Sur.app --nointeraction```
+
+  13. Copy **EFI** (USB) using the USB's EFI partition as the target volume.​
+
 # BIOS
  BIOS version: [F10](https://www.gigabyte.com/Motherboard/Z370M-D3H-rev-10/support#support-dl-bios)
 
